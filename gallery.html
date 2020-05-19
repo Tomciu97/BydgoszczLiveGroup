@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./icons/flavico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/ac517effd0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Gallery</title>
+</head>
+<body>
+    <div id="myModal" class="modal" onclick="close()">
+        <img class="modal-content" id="img01">
+    </div>
+    <div class="jumbotron text-center mt-3 pb-1 mb-0">
+        <h1 class="display-3">Bydgoszcz | Live Group</h1>
+         <hr class="my-3">
+         <p class="lead">The group of people who believe in good and meeting together to discuss about live</p>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand">Menu</a>
+            <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="my-nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" tabindex="-1" aria-disabled="true">Home </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container text-center">
+        <div class="row gallery-img">
+            <div class="col">
+                <figure>
+                    <img src="./img/1.jpg" onclick="zoom(this)"/>
+                </figure>
+            </div>
+            <div class="col">
+                <figure>
+                    <img src="./img/2.jpg" onclick="zoom(this)"/>
+                </figure>
+            </div>
+            <div class="col">
+                <figure>
+                    <img src="./img/3.jpg" onclick="zoom(this)"/>
+                </figure>
+            </div>
+            <div class="col">
+                <figure>
+                    <img src="./img/4.jpg" onclick="zoom(this)"/>
+                </figure>
+            </div>
+            <div class="col">
+                <figure>
+                    <img src="./img/5.jpg" onclick="zoom(this)"/>
+                </figure>
+            </div>
+            <div class="col">
+                <figure>
+                    <img src="./img/6.jpg" onclick="zoom(this)"/>
+                </figure>
+            </div>
+            <div class="col">
+                <figure>
+                    <img src="./img/7.jpg" onclick="zoom(this)"/>
+                </figure>
+            </div>
+            <div class="col">
+                <figure>
+                    <img src="./img/8.jpg" onclick="zoom(this)"/>
+                </figure>
+            </div>
+            <div class="col">
+                <figure>
+                    <img src="./img/9.jpg" onclick="zoom(this)"/>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div class="container for-more text-center">
+        <a href="https://www.facebook.com/BydLifeGroup/" target="_blank">
+            <strong>Check more on </strong> <i class="fab fa-facebook"></i>
+        </a>
+    </div>
+    <div class="card text-right fixed-bottom">
+        <div class="card-footer">
+            Tomasz Lipiński &copy 2020
+        </div>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+</html>
