@@ -78,12 +78,3 @@ body,html {
     background-color: rgba(63, 63, 68, .80);
 }
 
-@media only screen and (max-width: 450px) {
-    .gallery-img figure img {
-        height: 210px;
-        max-width: 300px;
-        opacity: 1;
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-    }
-  }
