@@ -27,6 +27,9 @@ body,html {
     color: royalblue;
     margin-bottom: 100px;
 }
+.contact-block {
+    margin-bottom: 100px;
+}
 
 .modal {
     display: none; 
